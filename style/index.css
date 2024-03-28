@@ -8,7 +8,27 @@
 }
 
 body {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  background-color: #565454;
+  width: 100%;
+  justify-content: center;
+}
+
+#display {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.buttons {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: black;
+  border-color: coral;
+  border-radius: 50px;
+  cursor: pointer;
 }
